@@ -16,3 +16,9 @@
 - **Status**: Completed
 - **Description**: Successfully ran `dotnet publish` to verify publishing output structure and confirmed Inno Setup skeleton is ready.
 - **Verification**: Output generated successfully in `publish/` directory.
+
+## [2026-07-26] Git Repository Initialization & Remote Setup
+- **Task**: Initialize git, create initial commit, and create/push to a remote GitHub repository.
+- **Status**: Completed
+- **Description**: Initialized git locally, added a standard `.gitignore` file, created the initial commit, and successfully pushed the codebase to the GitHub repository.
+- **Verification**: Successfully pushed branch `main` to `github.com:smile-plzz/HDDCacheWarmer.git`.
