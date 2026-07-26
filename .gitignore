@@ -1,0 +1,19 @@
+# Build artifacts
+bin/
+obj/
+publish/
+[Oo]ut/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / IntelliJ
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

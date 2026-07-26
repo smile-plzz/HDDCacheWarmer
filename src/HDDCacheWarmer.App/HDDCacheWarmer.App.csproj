@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>HDDCacheWarmer</AssemblyName>
+    <RootNamespace>HDDCacheWarmer.App</RootNamespace>
+    <!-- No admin required for normal operation, per PRD -->
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HDDCacheWarmer.Core\HDDCacheWarmer.Core.csproj" />
+  </ItemGroup>
+
+</Project>
